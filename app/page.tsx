@@ -8,16 +8,12 @@ import OurPrograms from '@/components/pages/home/OurPrograms';
 import WhatWeDo from '@/components/pages/home/WhatWeDo';
 import Image from 'next/image';
 import Footer from '../components/common/Footer';
+import OurPartners from '@/components/pages/home/OurPartners';
+import News from '@/components/pages/home/News';
 
 export default function Home() {
 	return (
 		<main>
-			{/* top popup message */}
-			<TopMessage />
-
-			{/* main header / navbar section */}
-			<Header />
-
 			{/* page hero section */}
 			<Hero />
 
@@ -36,8 +32,11 @@ export default function Home() {
 			{/* our community section */}
 			<OurCommunity />
 
-			{/* Footer section */}
-			<Footer />
+			{/* partners */}
+			<OurPartners />
+
+			{/* news */}
+			<News />
 		</main>
 	);
 }
