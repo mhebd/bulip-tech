@@ -20,8 +20,8 @@ export default function Hundred() {
 					y2='45.5816'
 					gradientUnits='userSpaceOnUse'
 				>
-					<stop stop-color='#FF3535' />
-					<stop offset='1' stop-color='#FFCC00' />
+					<stop stopColor='#FF3535' />
+					<stop offset='1' stopColor='#FFCC00' />
 				</linearGradient>
 			</defs>
 		</svg>

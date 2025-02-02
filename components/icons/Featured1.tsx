@@ -8,51 +8,51 @@ export default function featured1() {
 			xmlns='http://www.w3.org/2000/svg'
 		>
 			<path
-				fill-rule='evenodd'
-				clip-rule='evenodd'
+				fillRule='evenodd'
+				clipRule='evenodd'
 				d='M59.4 30.6H24.6V53.4H33.5999V50.2191C33.5999 47.0053 36.2518 44.3999 39.525 44.3999H44.4735C47.7457 44.3999 50.3989 47.0053 50.3989 50.2191L50.3997 53.4H59.4V30.6ZM41.9999 42.5999C44.3195 42.5999 46.1999 40.7192 46.1999 38.3994C46.1999 36.0795 44.3195 34.1999 41.9999 34.1999C39.6802 34.1999 37.7999 36.0795 37.7999 38.3994C37.7999 40.7193 39.6802 42.5999 41.9999 42.5999Z'
 				fill='url(#paint0_linear_1_3016)'
 			/>
 			<path
 				d='M19.8 43.2V25.8H48.6V22.5'
 				stroke='#F15B2D'
-				stroke-width='1.8'
-				stroke-linecap='round'
-				stroke-linejoin='round'
+				strokeWidth='1.8'
+				strokeLinecap='round'
+				strokeLinejoin='round'
 			/>
 			<path
 				d='M64.2 40.8V58.2H35.4V61.5'
 				stroke='#F15B2D'
-				stroke-width='1.8'
-				stroke-linecap='round'
-				stroke-linejoin='round'
+				strokeWidth='1.8'
+				strokeLinecap='round'
+				strokeLinejoin='round'
 			/>
 			<path
-				fill-rule='evenodd'
-				clip-rule='evenodd'
+				fillRule='evenodd'
+				clipRule='evenodd'
 				d='M48.6 22.2C46.9431 22.2 45.6 20.8569 45.6 19.2C45.6 17.5432 46.9431 16.2 48.6 16.2C50.2568 16.2 51.6 17.5432 51.6 19.2C51.6 20.8569 50.2568 22.2 48.6 22.2Z'
 				stroke='#F15B2D'
-				stroke-width='1.8'
+				strokeWidth='1.8'
 			/>
 			<path
-				fill-rule='evenodd'
-				clip-rule='evenodd'
+				fillRule='evenodd'
+				clipRule='evenodd'
 				d='M35.4 67.8C33.7432 67.8 32.4 66.4568 32.4 64.8C32.4 63.1431 33.7432 61.8 35.4 61.8C37.0569 61.8 38.4 63.1431 38.4 64.8C38.4 66.4568 37.0569 67.8 35.4 67.8Z'
 				stroke='#F15B2D'
-				stroke-width='1.8'
+				strokeWidth='1.8'
 			/>
 			<path
 				d='M13.8002 60.5999V70.1999H23.4002'
 				stroke='white'
-				stroke-width='2.4'
+				strokeWidth='2.4'
 			/>
 			<path
 				d='M70.2002 60.5999V70.1999H60.6002'
 				stroke='white'
-				stroke-width='2.4'
+				strokeWidth='2.4'
 			/>
-			<path d='M13.8002 23.4V13.8H23.4002' stroke='white' stroke-width='2.4' />
-			<path d='M70.2002 23.4V13.8H60.6002' stroke='white' stroke-width='2.4' />
+			<path d='M13.8002 23.4V13.8H23.4002' stroke='white' strokeWidth='2.4' />
+			<path d='M70.2002 23.4V13.8H60.6002' stroke='white' strokeWidth='2.4' />
 			<rect
 				opacity='0.1'
 				x='44.4'
@@ -132,8 +132,8 @@ export default function featured1() {
 					y2='53.4'
 					gradientUnits='userSpaceOnUse'
 				>
-					<stop stop-color='#F15B2D' />
-					<stop offset='1' stop-color='#F15B2D' stop-opacity='0' />
+					<stop stopColor='#F15B2D' />
+					<stop offset='1' stopColor='#F15B2D' stopOpacity='0' />
 				</linearGradient>
 			</defs>
 		</svg>

@@ -7,6 +7,7 @@ import OurCommunity from '@/components/pages/home/OurCommunity';
 import OurPrograms from '@/components/pages/home/OurPrograms';
 import WhatWeDo from '@/components/pages/home/WhatWeDo';
 import Image from 'next/image';
+import Footer from '../components/common/Footer';
 
 export default function Home() {
 	return (
@@ -34,6 +35,9 @@ export default function Home() {
 
 			{/* our community section */}
 			<OurCommunity />
+
+			{/* Footer section */}
+			<Footer />
 		</main>
 	);
 }
