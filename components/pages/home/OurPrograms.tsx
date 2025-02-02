@@ -64,7 +64,7 @@ export default function OurPrograms() {
 				backgroundSize: 'cover',
 			}}
 		>
-			<div className='container mx-auto'>
+			<div className='container mx-auto px-4'>
 				<SectionHeader title='Our Programs' />
 
 				<div className='grid grid-cols-3 mb-10'>
@@ -77,14 +77,14 @@ export default function OurPrograms() {
 									: 'border-b border-gray-50'
 							} `}
 						>
-							<div className='p-4'>{category.icon}</div>
+							<div className='p-4 hidden sm:block'>{category.icon}</div>
 							<h2 className='text-sm font-mediam text-[#242424]'>
 								{category.title}
 							</h2>
 						</div>
 					))}
 				</div>
-				<div className='grid grid-cols-3 gap-8'>
+				<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
 					{programs.map((program: any) => (
 						<div
 							key={program.id}
