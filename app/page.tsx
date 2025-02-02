@@ -1,5 +1,6 @@
 import Header from '@/components/common/Header';
 import TopMessage from '@/components/common/TopMessage';
+import Hero from '@/components/pages/home/Hero';
 import Image from 'next/image';
 
 export default function Home() {
@@ -10,6 +11,9 @@ export default function Home() {
 
 			{/* main header / navbar section */}
 			<Header />
+
+			{/* page hero section */}
+			<Hero />
 		</main>
 	);
 }

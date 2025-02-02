@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Face from '../icons/Face';
 import Logo from '../icons/Logo';
+import ButtonSolid from '../UI/ButtonSolid';
 
 const pages = [
 	{
@@ -44,7 +45,7 @@ export default function Header() {
 									<li key={page.label}>
 										<Link
 											href={page.href}
-											className={`font-medium ${
+											className={`font-medium capitalize ${
 												page.href === '/' ? 'text-[#0786C0]' : 'text-[#004464]'
 											} hover:text-[#0786C0] transition duration-300 ease-in-out`}
 										>
@@ -55,10 +56,7 @@ export default function Header() {
 							</ul>
 						</nav>
 						<div className=''>
-							<button className='font-medium text-white flex items-center justify-between w-[130px] rounded-3xl bg-[#F15B2D] px-5 py-2'>
-								Sign Up
-								<Face />
-							</button>
+							<ButtonSolid label='Sign Up' rightIcon={<Face />} />
 						</div>
 					</div>
 				</div>
