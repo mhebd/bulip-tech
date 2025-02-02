@@ -20,7 +20,7 @@ export default function TopMessage() {
 						communities!
 					</p>
 				</div>
-				<div className='px-2 md:px-4 md:w-[100px]'>
+				<div className='md:px-4 md:w-[100px]'>
 					<button className=''>
 						<Close />
 					</button>
