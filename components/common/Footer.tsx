@@ -11,10 +11,10 @@ export default function Footer() {
 			<div className='bg-[#40CBC0] py-12 px-4'>
 				<div className='container mx-auto max-w-6xl'>
 					<div className='grid grid-cols-1 md:grid-cols-2'>
-						<h2 className='text-2xl md:text-3xl font-bold text-[#001F3F] text-right mr-4 max-w-[300px] ml-auto'>
+						<h2 className='text-2xl md:text-3xl font-bold text-[#001F3F] text-center md:text-right mb-4 md:mb-0 md:mr-4 md:max-w-[300px] md:ml-auto'>
 							Ready to start your career?
 						</h2>
-						<div className='text-center md:text-left pl-4 border-l-2 border-[#001F3F]'>
+						<div className='text-center md:text-left pt-4 md:pt-0 md:pl-4 border-t-2 md:border-t-0 md:border-l-2 border-[#001F3F]'>
 							<p className='text-white text-2xl font-medium mb-2'>
 								We are waiting for you to contact us
 							</p>
@@ -32,7 +32,7 @@ export default function Footer() {
 			{/* Main Footer Section */}
 			<div className='bg-[#001F3F] text-white py-12 px-4'>
 				<div className='container mx-auto max-w-6xl'>
-					<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
+					<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8'>
 						{/* Company Info */}
 						<div className='space-y-4'>
 							<LogoFooter />
