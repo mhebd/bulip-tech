@@ -7,8 +7,8 @@ import Image from 'next/image';
 export default function Hero() {
 	return (
 		<section className='bg-[#004464] pt-16 pb-40 text-white'>
-			<div className='container mx-auto grid grid-cols-2 gap-x-10'>
-				<div className='space-y-4'>
+			<div className='container px-4 mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-10'>
+				<div className='space-y-4 order-2 md:order-1 mt-8 md:mt-0'>
 					<h5 className='text-lg uppercase'>Eleveting</h5>
 					<h1 className='text-[52px] leading-[62px] font-medium'>
 						IT Service Industry with Digital Skills Development
@@ -24,7 +24,7 @@ export default function Hero() {
 						<ButtonOutline label='Read More' rightIcon={<Exclemation />} />
 					</div>
 				</div>
-				<div className=''>
+				<div className='order-1 md:order-2'>
 					<Image
 						className='ml-auto'
 						src='/images/hero.png'
