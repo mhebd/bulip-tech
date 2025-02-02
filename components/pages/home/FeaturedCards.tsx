@@ -35,9 +35,9 @@ const featuredCards = [
 
 export default function FeaturedCards() {
 	return (
-		<section className='-mt-[100px]'>
-			<div className='container mx-auto'>
-				<div className='grid grid-cols-3 gap-8'>
+		<section className='-mt-[70px] lg:-mt-[100px]'>
+			<div className='container px-4 mx-auto'>
+				<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-5'>
 					{featuredCards.map((card: Card) => (
 						<Card key={card.id} data={card} />
 					))}
@@ -49,7 +49,7 @@ export default function FeaturedCards() {
 
 function Card({ data }: { data: Card }) {
 	return (
-		<div className='bg-white px-10 rounded-[30px] shadow-xl pb-10'>
+		<div className='bg-white px-10 rounded-[30px] shadow-[0px_0px_40px_0_rgba(0,0,0,0.1)] lg:shadow-xl pb-10 mb-16'>
 			<div className='w-[150px] h-[150px] mx-auto rounded-full p-2 bg-[#004464] -mt-[60px]'>
 				<div className='border-2 border-white rounded-full w-full h-full flex items-center justify-center'>
 					{data.image}
