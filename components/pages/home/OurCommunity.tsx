@@ -19,7 +19,7 @@ export default function OurCommunity() {
 			<div className='container mx-auto max-w-6xl'>
 				<h2 className='text-4xl font-bold text-white mb-4'>
 					Our community
-					<div className='w-24 h-1 bg-red-500 mt-4'></div>
+					<div className='w-24 h-[3px] bg-red-500 mt-4'></div>
 				</h2>
 
 				<p className='text-gray-300 mb-12 max-w-2xl'>
@@ -38,8 +38,12 @@ export default function OurCommunity() {
                         hover:bg-[rgba(0,180,216,0.05)]
                         transition-all duration-300 ${
 													index === 1 && 'border-l-0 border-r-0'
-												} ${index === 0 && 'rounded-s-lg '} ${
-									index === 2 && 'rounded-e-lg '
+												} ${
+									index === 0 &&
+									'rounded-t-lg md:rounded-t-none md:rounded-s-lg '
+								} ${
+									index === 2 &&
+									'rounded-b-lg md:rounded-b-none md:rounded-e-lg '
 								}
 													`}
 							>
