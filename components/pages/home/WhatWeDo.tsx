@@ -8,8 +8,8 @@ export default function WhatWeDo() {
 		<section className='bg-white flex flex-col items-center py-16'>
 			<SectionHeader title='What We Do' />
 
-			<div className='container grid md:grid-cols-2 lg:grid-cols-3 px-4'>
-				<div className='bg-[#B4EAE4] p-10 col-span-1'>
+			<div className='container grid grid-cols-1 lg:grid-cols-3 px-4'>
+				<div className='bg-[#B4EAE4] p-10 col-span-2 lg:col-span-1 order-2 lg:order-1'>
 					<h2 className='text-2xl font-bold text-gray-800 mb-4'>
 						Bulipe Tech is a dynamic and innovative company
 					</h2>
@@ -31,7 +31,7 @@ export default function WhatWeDo() {
 					/>
 				</div>
 
-				<div className='relative w-full h-[400px] md:h-full min-h-[400px] col-span-2'>
+				<div className='relative w-full h-[400px] md:h-full min-h-[400px] col-span-2 order-1 lg:order-2'>
 					<Image
 						src='/images/what-we-do.png'
 						alt='Technology visualization with glowing network lines'
