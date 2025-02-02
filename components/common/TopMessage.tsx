@@ -4,8 +4,8 @@ import Close from '../icons/Close';
 export default function TopMessage() {
 	return (
 		<div className='bg-[#A6E2E2]'>
-			<div className='container mx-auto flex items-center justify-between py-2'>
-				<div className='flex items-center justify-between space-x-8 w-full'>
+			<div className='container px-4 mx-auto flex items-center justify-between py-2'>
+				<div className='grid grid-cols-2 md:grid-cols-3'>
 					<h2 className=''>
 						<Hundred />
 					</h2>
@@ -15,12 +15,12 @@ export default function TopMessage() {
 							programs
 						</p>
 					</div>
-					<p className='text-sm text-[#014463]'>
+					<p className='text-sm text-[#014463] col-span-2 md:col-span-1 mt-2 md:mt-0'>
 						Exclusively for the physically challenged, and third-gender
 						communities!
 					</p>
 				</div>
-				<div className='px-4 md:w-[100px]'>
+				<div className='px-2 md:px-4 md:w-[100px]'>
 					<button className=''>
 						<Close />
 					</button>
