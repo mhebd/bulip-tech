@@ -39,11 +39,11 @@ export default function HowItWorks() {
 			<div className='max-w-7xl mx-auto px-4'>
 				<SectionHeader title='How does It Works' />
 
-				<div className='grid md:grid-cols-3 gap-8'>
+				<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8 gap-y-16'>
 					{steps.map((step, index) => (
 						<div key={index} className='relative'>
 							{/* Content card */}
-							<div className='relative bg-white rounded-[30px] px-12 max-w-[350px] shadow-[2px_2px_10px_rgba(0,0,0,0.08)]'>
+							<div className='relative bg-white rounded-[30px] px-12 lg:max-w-[350px] shadow-[2px_2px_10px_rgba(0,0,0,0.08)]'>
 								{/* Paper clip effect */}
 								<div className='flex items-center justify-center'>
 									<div className='-mt-7'>{step.paperPin}</div>
