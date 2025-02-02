@@ -40,7 +40,7 @@ export default function OurCommunity() {
 													index === 1 && 'border-l-0 border-r-0'
 												} ${
 									index === 0 &&
-									'rounded-t-lg md:rounded-t-none md:rounded-s-lg '
+									'rounded-t-lg md:rounded-tr-none md:rounded-s-lg '
 								} ${
 									index === 2 &&
 									'rounded-b-lg md:rounded-b-none md:rounded-e-lg '
