@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 export default function Hero() {
 	return (
-		<section className='bg-[#004464] py-10 text-white'>
+		<section className='bg-[#004464] pt-16 pb-40 text-white'>
 			<div className='container mx-auto grid grid-cols-2 gap-x-10'>
 				<div className='space-y-4'>
 					<h5 className='text-lg uppercase'>Eleveting</h5>
