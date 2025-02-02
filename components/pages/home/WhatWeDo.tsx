@@ -1,14 +1,15 @@
+import ArrowRight from '@/components/icons/ArrowRight';
+import ButtonSolid from '@/components/UI/ButtonSolid';
+import SectionHeader from '@/components/UI/SectionHeader';
 import Image from 'next/image';
 
 export default function WhatWeDo() {
 	return (
-		<section className='bg-black min-h-screen flex flex-col items-center py-16'>
-			<h1 className='text-4xl md:text-5xl font-bold text-white mb-16'>
-				What We Do?
-			</h1>
+		<section className='bg-white flex flex-col items-center py-16'>
+			<SectionHeader title='What We Do' />
 
-			<div className='container grid md:grid-cols-2 gap-8 px-4'>
-				<div className='bg-[#B4EAE4] p-8 rounded-lg'>
+			<div className='container grid md:grid-cols-2 lg:grid-cols-3 px-4'>
+				<div className='bg-[#B4EAE4] p-10 col-span-1'>
 					<h2 className='text-2xl font-bold text-gray-800 mb-4'>
 						Bulipe Tech is a dynamic and innovative company
 					</h2>
@@ -22,20 +23,20 @@ export default function WhatWeDo() {
 						continuous up-skilling.
 					</p>
 
-					{/* <Button
-						variant='default'
-						className='bg-[#0A4D68] hover:bg-[#0A4D68]/90 text-white px-6'
-					>
-						Read More
-					</Button> */}
+					<ButtonSolid
+						label='Read More'
+						rightIcon={<ArrowRight />}
+						color='bg-[#0A4D68]'
+						textColor='text-white'
+					/>
 				</div>
 
-				<div className='relative w-full h-[400px] md:h-full min-h-[400px]'>
+				<div className='relative w-full h-[400px] md:h-full min-h-[400px] col-span-2'>
 					<Image
-						src='https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-z1uFl7TQDWdPI9M26TukEZdTBmFvlA.png'
+						src='/images/what-we-do.png'
 						alt='Technology visualization with glowing network lines'
 						fill
-						className='object-cover rounded-lg'
+						className='object-cover'
 						priority
 					/>
 				</div>
